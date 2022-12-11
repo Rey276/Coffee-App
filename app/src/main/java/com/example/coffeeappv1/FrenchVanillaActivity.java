@@ -13,4 +13,29 @@ public class FrenchVanillaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_french_vanilla);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
+
+    public void buttonPressDecaffeinatedVanillaNutCream(View view) {
+        Intent intent = new Intent(this, DecaffeinatedVanillaNutCreamActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressVanillaNutCream(View view) {
+        Intent intent = new Intent(this, VanillaNutCreamActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressMidnightRoyale(View view) {
+        Intent intent = new Intent(this, MidnightRoyaleActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressCinnamonNutSugarCookie(View view) {
+        Intent intent = new Intent(this, CinnamonNutSugarCookieActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressVanillaMacadamiaNut(View view) {
+        Intent intent = new Intent(this, VanillaMacadamiaNutActivity.class);
+        startActivity(intent);
+    }
 }
